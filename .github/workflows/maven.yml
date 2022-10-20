@@ -30,7 +30,7 @@ jobs:
       with:
         image: anjan420/springboot-demo-image
         tags: latest
-        registry: hub.docker.com
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
